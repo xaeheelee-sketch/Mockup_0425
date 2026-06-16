@@ -406,6 +406,17 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
           <div style="display:flex;gap:6px;margin-top:7px"><span class="tag">그라플</span><span class="tag">돌집게</span></div>
           <div class="row-between" style="margin-top:10px"><span class="spec"><b>바퀴형</b> · 중형</span><span class="price">350,000<small>원</small></span></div>
         </div>
+        <div style="background:#fff;border:1.6px solid var(--navy);border-radius:18px;padding:13px;box-shadow:0 12px 24px rgba(0,47,108,.10);margin-bottom:10px">
+          <div class="row-between"><span class="date">6/6(금) 15:00</span><span class="pill" style="color:#fff;background:var(--navy)">지정배차</span></div>
+          <div style="font-size:17px;font-weight:800;margin-top:7px">서울 서초구 서초동</div>
+          <div style="display:flex;gap:6px;margin-top:7px"><span class="tag">굴착기</span><span class="tag">궤도형 · 대형</span></div>
+          <div class="row-between" style="margin-top:10px;padding-top:10px;border-top:1px solid var(--line-2)"><span class="spec"><b>지정 기사 우선</b></span><span class="price">1,100,000<small>원</small></span></div>
+          <div style="margin-top:10px">
+            <div class="row-between" style="margin-bottom:6px"><span style="font-size:11.5px;font-weight:800;color:var(--navy)">지정 마감까지</span><span style="font-size:12px;font-weight:800;color:var(--navy);font-variant-numeric:tabular-nums">4:38</span></div>
+            <div style="height:6px;border-radius:6px;background:#DCE8FB;overflow:hidden"><div style="height:100%;width:92%;border-radius:6px;background:linear-gradient(90deg,var(--blue),var(--navy))"></div></div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:6px;margin-top:9px;font-size:11px;font-weight:600;color:var(--ink-3);word-break:keep-all"><svg class="ic" style="width:13px;height:13px;color:var(--navy);flex:none;margin-top:1px"><use href="#i-shield"/></svg>지정배차건입니다 · 지정 기사만 지원 가능, <b style="color:var(--navy)">5분 후 일반 선착순</b>으로 전환돼요.</div>
+        </div>
         <div style="background:#fff;border:1px solid var(--line);border-radius:18px;padding:13px;position:relative;overflow:hidden;min-height:94px;margin-bottom:10px">
           <div class="is-done">
             <div class="row-between"><span class="date">6/4(수) 09:00</span><span class="pill done">배차완료</span></div>
@@ -830,9 +841,13 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
       </div>
       <div class="scroll" style="padding:16px">
         <div class="seg">
-          <button class="on">일반 발주</button>
-          <button>지정 발주</button>
+          <button>일반 발주</button>
+          <button class="on">지정 발주</button>
         </div>
+
+        <label class="formlabel">지정 대상 (회원번호 또는 비밀번호)</label>
+        <div class="input" style="margin-bottom:11px;justify-content:space-between"><span style="font-variant-numeric:tabular-nums">#M-7K2Q9</span><span style="font-size:11.5px;font-weight:700;color:var(--blue-ink)">박중장 기사</span></div>
+        <div class="infonote" style="margin-bottom:16px"><svg class="ic"><use href="#i-ticket"/></svg><span>지정 기사에게 <b style="color:var(--navy);font-weight:800">5분 우선권</b>, 미수락 시 일반 선착순 전환 · 지정배차 매칭 <b style="color:var(--navy);font-weight:800">3건마다 우선배차권 1장</b></span></div>
 
         <label class="formlabel">작업 위치</label>
         <div class="input" style="margin-bottom:14px;justify-content:space-between"><span>서울 강남구 역삼동 123-45</span><svg class="ic" style="width:18px;height:18px;color:var(--navy)"><use href="#i-pin"/></svg></div>
@@ -1086,6 +1101,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
         <div class="noti">
           <span class="nico" style="background:#FFF8E6"><svg class="ic" style="color:#E0A100"><use href="#i-star"/></svg></span>
           <div class="nb"><div class="nt">운영팀 칭찬 · 별점 +1<i></i></div><div class="nd">“힘든 작업인데 끝까지 완주해주셔서 감사합니다.” 발주자님이 뒷정리까지 만족하셨어요. <span style="color:var(--ink-3);font-variant-numeric:tabular-nums">역삼동 일감 #260605-K7Q2</span></div><div class="ntime">방금 전</div></div>
+        </div>
+        <div class="noti">
+          <span class="nico" style="background:#EAF1FE"><svg class="ic" style="color:var(--navy)"><use href="#i-ticket"/></svg></span>
+          <div class="nb"><div class="nt">지정배차 보상 · 우선배차권 +1<i></i></div><div class="nd">지정배차 매칭 3건을 달성해 우선배차권 1장이 지급됐어요. (누적 매칭 성사 기준)</div><div class="ntime">10분 전</div></div>
         </div>
         <div class="noti">
           <span class="nico" style="background:#FEECEC"><svg class="ic" style="color:var(--red)"><use href="#i-clock"/></svg></span>
