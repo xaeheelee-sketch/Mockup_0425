@@ -474,7 +474,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
           </div>
           <div style="margin-top:4px">
             <div class="irow" style="padding:11px 0"><span class="k">작업 종류</span><span class="v">뿌레카 · 코아(천공)</span></div>
-            <div class="irow" style="padding:11px 0;border-bottom:none"><span class="k">장비 조건</span><span class="v">궤도형 · 대형</span></div>
+            <div class="irow" style="padding:11px 0;border-bottom:none"><span class="k">허용 장비</span><span class="v">미니035 · 중대형02 · 중대형03 <span style="color:var(--blue-ink);font-weight:700">· 1대 매칭</span></span></div>
           </div>
         </div>
       </div>
@@ -857,14 +857,14 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
           <div style="flex:1"><label class="formlabel">시간</label><div class="input">08:00</div></div>
         </div>
 
-        <label class="formlabel">장비 · 기종</label>
-        <div style="display:flex;gap:10px;margin-bottom:14px">
-          <div class="input" style="flex:1.5">굴착기</div>
-          <div class="input" style="flex:1;justify-content:center;font-weight:800;color:var(--navy);letter-spacing:.04em">04LC</div>
+        <label class="formlabel">허용 장비 <span style="color:var(--blue-ink);font-weight:700">· 여러 대 가능 · 아무거나 1대 매칭</span></label>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:9px">
+          <span class="chip sel" style="gap:6px">미니 035 <svg viewBox="0 0 24 24" style="width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span>
+          <span class="chip sel" style="gap:6px">중대형 02 <svg viewBox="0 0 24 24" style="width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span>
+          <span class="chip sel" style="gap:6px">중대형 03 <svg viewBox="0 0 24 24" style="width:12px;height:12px;stroke:currentColor;fill:none;stroke-width:2.4"><path d="M6 6l12 12M18 6 6 18"/></svg></span>
+          <span class="chip add"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>장비 추가</span>
         </div>
-
-        <label class="formlabel">장비 조건</label>
-        <div style="display:flex;gap:7px;margin-bottom:14px"><span class="chip sel">궤도형</span><span class="chip sel">대형</span><span class="chip add"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>옵션</span></div>
+        <div class="infonote" style="margin-bottom:14px"><svg class="ic"><use href="#i-checkc"/></svg><span>발주한 <b style="color:var(--navy);font-weight:800">3종</b> 중 <b style="color:var(--navy);font-weight:800">아무거나 한 대</b>만 와도 매칭됩니다.</span></div>
 
         <label class="formlabel">대금</label>
         <div class="input filled" style="margin-bottom:12px;justify-content:space-between"><span style="font-size:18px;font-weight:800;color:var(--ink);font-variant-numeric:tabular-nums">1,200,000</span><span style="font-size:14px;font-weight:700;color:var(--ink-2)">원</span></div>
@@ -966,7 +966,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none}
         <div style="text-align:center;margin-top:12px">
           <span style="display:inline-grid;place-items:center;width:78px;height:78px;border-radius:50%;background:#EFF6FF;border:1px solid #DCE8FB"><svg class="ic" style="width:34px;height:34px;color:var(--navy)"><use href="#i-clock"/></svg></span>
           <div style="font-size:19px;font-weight:800;color:var(--ink);margin-top:16px;letter-spacing:-.02em">서류를 심사하고 있어요</div>
-          <div style="font-size:13px;color:var(--ink-2);font-weight:600;margin-top:8px;line-height:1.6;word-break:keep-all">제출하신 서류 5종을 확인 중이에요.<br>보통 <b style="color:var(--navy)">1영업일 이내</b>에 완료됩니다.</div>
+          <div style="font-size:13px;color:var(--ink-2);font-weight:600;margin-top:8px;line-height:1.6;word-break:keep-all">제출하신 서류 5종을 확인 중이에요.<br>보통 <b style="color:var(--navy)">영업일 3일 이내</b>에 완료됩니다.</div>
         </div>
 
         <div style="background:#fff;border-radius:16px;border:1px solid var(--line);box-shadow:var(--shadow-sm);padding:2px 14px;margin-top:22px">
